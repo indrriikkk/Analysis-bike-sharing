@@ -5,7 +5,7 @@ import streamlit as st
 import numpy as np
 
 # Load the dataset
-df = pd.read_csv('https://raw.githubusercontent.com/indrriikkk/Analysis-Bike-Sharing/refs/heads/main/hour.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/indrriikkk/Analysis-bike-sharing/refs/heads/main/hour.csv')
 
 # Rename columns
 df.rename(columns={'dteday': 'date', 'yr': 'year', 'mnth': 'month', 'hr': 'hour',
